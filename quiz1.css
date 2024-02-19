@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    font-family: Oswald;
+    background-color: lightslategray;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; 
+    width: 25%;
+}
+
+.container *{
+    background-color: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea,
+.whynot {
+    width: 100%
+}
+
+button{
+    color: white;
+}
+
+.submit{
+    background-color: green;
+}
+
+.reset{
+    background-color: red;
+}
